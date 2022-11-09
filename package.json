@@ -1,0 +1,30 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxim Kozhen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "browser-sync": "^2.27.10",
+    "eslint": "^8.27.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "jquery": "^3.6.1",
+    "rev-del": "^2.0.0"
+  },
+  "dependencies": {
+    "del": "^7.0.0",
+    "imagemin": "^8.0.1",
+    "sass": "^1.56.0"
+  }
+}
