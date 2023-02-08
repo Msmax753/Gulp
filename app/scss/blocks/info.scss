@@ -1,0 +1,33 @@
+.info {
+    background: #E5E5E5;
+    &__bg {
+        position: relative;
+    }
+    .info-corner {
+        &-img {
+            position: absolute;
+            top: 10%;
+            right: 0;
+        }
+    }
+    &__content {
+        text-align: center;
+        &-title {
+            margin: 0 auto;
+            padding: 175px 0 24px;
+            max-width: 600px;
+        }
+        &-text {
+            color: #232536;
+            font-size: 16px;
+            line-height: 24px;
+            opacity: 0.87;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    }
+    .info__careers {
+       padding: 64px 0 216px;
+       width: 100%;
+    }
+}

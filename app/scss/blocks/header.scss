@@ -1,0 +1,101 @@
+.header{
+    background: #232536;
+    width: 100%;
+    position: fixed;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    z-index: 2;
+    &__content{
+        padding: 28px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-item {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-right: 32px;
+            opacity: 0.6;
+            transition: 0.1s linear;
+            cursor: pointer;
+            
+            &:hover {
+                opacity: 1;
+            }
+        }
+        
+    }
+    .modal__btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #FFD3AF;
+        cursor: pointer;
+        img {
+            color: #FFFFFF;
+            width: 20px;
+            margin-left: 8px;
+        }
+    }
+    &__btn {
+        width: 50px;
+        display: none;
+        position: relative;
+        z-index: 5;
+        span{
+            border-radius: 2px;
+            width: 35px;
+            height: 3px;
+            top: 50%;
+            right: 0;
+            transform: translate(0, -50%);
+            background-color: #FFFFFF;
+            transition: all 0.5s;
+            opacity: 1;
+            position: absolute;
+            &:nth-of-type(2) {
+                width: 30px;
+                top: calc(50% - 10px);
+            }
+            &:nth-of-type(3) {
+                width: 40px;
+                top: calc(50% + 10px);
+            }
+        }
+        
+    }
+    .transform {
+        span {
+            &:nth-of-type(1) {
+                transform: translate(200px);
+            }
+            &:nth-of-type(2) {
+                width: 40px;
+                transform: translate(0, 10px) rotate(-45deg);  
+            }
+            &:nth-of-type(3) {
+                transform: translate(0, -10px) rotate(45deg);  
+            }
+        }
+    }
+    &__modal {
+        width: 100%;
+        background: #232536;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 4;
+        display: none;
+        text-align: center;
+
+    }
+    .active {
+        display: block;
+    }
+}

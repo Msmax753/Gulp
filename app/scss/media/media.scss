@@ -1,0 +1,141 @@
+@media (max-width: 1366px) {
+    h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .container {
+        padding: 0 120px;
+    }
+    .tabs__menu-item {
+        margin-right: 80px; 
+    }
+    .tabs__text {
+        padding: 100px 200px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 120px;
+    }
+    .header__btn {
+        display: block;
+    }
+    .header__menu {
+        display: none;
+    }
+    .intro__inner {
+        flex-wrap: wrap;
+    }
+    .intro__content {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .intro__img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .tabs__menu-item {
+        margin-right: 50px; 
+    }
+    .tabs__text {
+        padding: 100px 100px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .container {
+        padding: 0 45px;
+    }
+
+    .header__content {
+        flex-wrap: wrap;
+    }
+    .header__menu-item {
+        padding: 10px 0;
+        &:nth-of-type(1) {
+            padding-top: 50px;
+        }
+        &:nth-of-type(5) {
+            padding-bottom: 50px;
+        }
+    }
+
+    .header .modal__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info .info__careers {
+        padding: 64px 0 100px;
+    }
+
+    .tabs__menu {
+        flex-wrap: wrap;
+        border: none;
+        &-item {
+            margin-right: 0;
+            padding: 30px 0 30px;
+            width: 100%;
+            text-align: center;
+            border-bottom: 4px solid rgba(225, 240, 243, 0.8);
+            &:hover {
+                padding: 30px 0 30px;
+            }
+        }
+    }
+    
+    .tabs__text {
+        padding: 40px 40px;
+    }
+    .reviews__content {
+        max-width: 275px;
+        padding: 40px;
+    }
+    .reviews__slide-title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .reviews__slide .slide-points-1 {
+        top: 14%;
+        left: 15.5%;
+    }
+    .reviews__slide .slide-points-2 {
+        top: 14%;
+        left: 21.5%;
+    }
+    .reviews__slide .slide-points-3 {
+        top: 14%;
+        left: 27.5%;
+    }
+    .reviews__slide .slide-img {
+        display: none;
+    }
+
+    .footer {
+        &__content {
+            flex-wrap: wrap;
+        }
+        &__logo {
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+        &__connect {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+    }
+        
+}

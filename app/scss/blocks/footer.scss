@@ -1,0 +1,28 @@
+.footer {
+    background: #FFE6D2;
+    &__content {
+        padding: 28px 0 28px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: flex;
+        align-items: center;
+        span {
+            color: #000000;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            margin-left: 42px;
+        }
+    }
+    &__connect {
+        &-img {
+            margin-right: 27px;
+            cursor: pointer;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

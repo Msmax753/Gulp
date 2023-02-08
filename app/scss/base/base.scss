@@ -1,0 +1,61 @@
+$white-color: #FFFFFF;
+$orange-color: #DC0000;
+
+body {
+    font-size: 10px;
+    font-family: 'Poppins';
+    color: #151515;
+    background: #F5F5F5;
+
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+    cursor: default;
+    &-hidden {
+        overflow: hidden;
+    }
+}
+
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+input, button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 160px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+
+    color: #0D0D0D;
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
